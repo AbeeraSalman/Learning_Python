@@ -1,0 +1,12 @@
+Names=["Abeera","Hooria","Moona"]
+print(Names)
+Names.append("Areesha")
+print(Names)
+Names.remove("Moona")
+print(Names)
+Names.sort()
+print(Names)
+Names.sort(reverse=True)
+print(Names)
+Names.sort(key=str.lower)
+print(Names)
